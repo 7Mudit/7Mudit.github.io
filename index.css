@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0px;
+    display: inline-block;
+    font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 25px 0px;
+}
+
+.box input{
+    background: none;
+    width: 75%;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    /* margin: 12px 0px; */
+    padding: 5px 10px;
+    font-family: 'Send Flowers', cursive;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 183px;
+    padding: 10px 21px;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    background-color: purple;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    position: relative;
+    font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.btn:hover{
+    color: purple;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.box i{
+    width: 25px;
+    text-align: center;
+
+}
